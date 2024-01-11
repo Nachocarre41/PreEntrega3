@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="productos">
+        <div class="producto" data-id="1" data-nombre="Producto 1" data-precio="30000">
+           
+            <img class="imagen" src="img/EA-SPORTS-FC-24-Standard-Edition.jpg" alt="" srcset="">
+            <p>Precio: $30000</p>
+            <button class="agregar">Agregar al carrito</button>
+        </div>
+        
+        <div class="producto" data-id="2" data-nombre="Producto 2" data-precio="45000">
+           <img class="imagen" src="img/1040-producto-spiderman-2-ps5-80.jpg" alt="">
+            <p>Precio: $45000</p>
+            <button class="agregar">Agregar al carrito</button>
+        </div>
+    </div>
+
+    <div id="carrito">
+        <h2>Carrito de Compras</h2>
+        <ul id="lista-carrito"></ul>
+        <p id="total">Total: $0</p>
+        <button id="vaciar-carrito">Vaciar Carrito</button>
+    </div>
+
+    <script type="module" src="JS/script.js"></script>
+</body>
+</html>
